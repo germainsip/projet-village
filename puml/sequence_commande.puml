@@ -8,7 +8,6 @@ skinparam participant {
 skinparam actor {
   BackgroundColor cornflowerblue
   bordercolor cornflowerblue
-  fontColor white
 }
 actor Utilisateur as U
 Participant System as S
@@ -48,6 +47,16 @@ deactivate S
 end
 S->U : demande la validation de la commande
 U->S : Valide sa commande
+activate S
+
+alt utilisateur pro
+S->D : sauvegarde la facture
+S-->U : affiche la facture
+else utilisateur particulier
+S->U : demande le paiement 
+U->S : effectue le paiment en ligne
+end
+
 
 
 @enduml

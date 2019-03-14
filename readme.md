@@ -5,6 +5,8 @@ https://dev.amorce.org/gsipiere/village/
 > Boutique d'instrument de musique en ligne avec interface d'administration
 > Ce projet est le file rouge proposé pour l'obtention de mon titre de Concepteur Développeur d'applications
 
+
+
 ***
 
 ## Uml
@@ -44,4 +46,4 @@ https://dev.amorce.org/gsipiere/village/
 
 ### Diagramme de séquence
 
-![Sequence Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/germainsip/projet-village/master/puml/sequence1.puml)
+![Sequence Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/germainsip/projet-village/master/puml/sequence_commande.puml)
