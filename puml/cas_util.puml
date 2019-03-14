@@ -1,4 +1,5 @@
 @startuml cas utilisation
+skinparam backgroundcolor transparent
 skinparam handwritten true
 skinparam usecase {
   BackgroundColor cornflowerblue
