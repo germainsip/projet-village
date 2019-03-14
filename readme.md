@@ -1,16 +1,19 @@
-# UML VillageGreen
+# VillageGreen
+
+!!! Boutique d'instrument de musique en ligne avec interface d'administration
 
 ***
+## Uml
 
-## Cas d'utilisation
+### Cas d'utilisation
 
 ![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/germainsip/projet-village/master/puml/cas_util.puml)
 
 ***
 
-## Description des cas d'utilisations
+### Description des cas d'utilisations
 
-### Consultation catalogue
+#### Consultation catalogue
 
 > **prérequis:** _Aucun_
 
@@ -23,7 +26,7 @@
 
 ***
 
-### Effectuer une commande
+#### Effectuer une commande
 
 > **prérequis:** _L'utilisateur possède un compte client_
 
@@ -35,6 +38,6 @@
 
 ***
 
-## Diagramme de séquence
+### Diagramme de séquence
 
 ![Sequence Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/germainsip/projet-village/master/puml/sequence1.puml)
