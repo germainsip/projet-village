@@ -2,31 +2,7 @@
 
 > Boutique d'instrument de musique en ligne avec interface d'administration
 
-## Création de la base
 
-```php
-# Affichage de la table appro
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `appro`;
-
-CREATE TABLE `appro` (
-  `appro_fournisseur_id` int(11) NOT NULL,
-  `appro_produit_id` int(11) NOT NULL,
-  `appro_prix_achat` decimal(7,2) NOT NULL,
-  `appro_date_com` date NOT NULL,
-  `appro_date_livr` date NOT NULL,
-  `appro_qtite` int(11) NOT NULL,
-  `appro_id` int(11) NOT NULL,
-  PRIMARY KEY (`appro_id`),
-  KEY `appro_fournisseur_id` (`appro_fournisseur_id`),
-  KEY `appro_produit_id` (`appro_produit_id`),
-  CONSTRAINT `appro_ibfk_1` FOREIGN KEY (`appro_fournisseur_id`) REFERENCES `fournisseur` (`fournisseur_id`),
-  CONSTRAINT `appro_ibfk_2` FOREIGN KEY (`appro_produit_id`) REFERENCES `produit` (`produit_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-
-```
 
 ***
 ## Uml
