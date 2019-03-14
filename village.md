@@ -4,28 +4,7 @@
 
 ## Cas d'utilisation
 
-```plantuml
-skinparam handwritten true
-skinparam usecase {
-  BackgroundColor cornflowerblue
-  bordercolor cornflowerblue
-  fontColor white
-}
-left to right direction
-actor Utilisateur as U 
-actor Admin as A
-actor Commercial as C
-U-->(consultation catalogue)
-U-->(consulter et modifier son panier)
-U-->(Effectuer une commande)
-U-->(Valide sa commande)
-C<|-U
-C-->(Edition fiche client)
-C-->(Catalogue fournisseur)
-A<|-C
-A-->(Edition fiche commerciaux)
-A-->(Consultation statistiques des ventes)
-```
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zingam/Markdown-Document-UML-Use-Test/master/UML/Instance.puml)
 
 ***
 
