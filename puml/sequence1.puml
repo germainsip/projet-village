@@ -1,4 +1,5 @@
 @startuml sequence
+skinparam backgroundcolor transparent
 skinparam participant {
   BackgroundColor cornflowerblue
   bordercolor cornflowerblue
