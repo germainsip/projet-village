@@ -1,5 +1,5 @@
 # VillageGreen
-> https://dev.amorce.org/gsipiere/village/
+https://dev.amorce.org/gsipiere/village/
 
 > Boutique d'instrument de musique en ligne avec interface d'administration
 
