@@ -17,6 +17,6 @@ C<|-U
 C-->(Edition fiche client)
 C-->(Catalogue fournisseur)
 A<|-C
-A-->(Edition fiche commerciaux)
+A-->(Edition fiches commerciaux)
 A-->(Consultation statistiques des ventes)
 @enduml
