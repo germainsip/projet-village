@@ -55,6 +55,9 @@ S-->U : affiche la facture
 else utilisateur particulier
 S->U : demande le paiement 
 U->S : effectue le paiment en ligne
+S-->U : valide le paiement
+S->D : sauvegarde la facture
+S-->U : affiche la facture
 end
 
 
