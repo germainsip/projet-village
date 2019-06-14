@@ -16,6 +16,7 @@ U-->(Valide sa commande)
 C<|-U
 C-->(Edition fiche client)
 C-->(Catalogue fournisseur)
+C-->(Edition fiche fournisseur)
 A<|-C
 A-->(Edition fiches commerciaux)
 A-->(Consultation statistiques des ventes)

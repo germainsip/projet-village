@@ -46,4 +46,6 @@ https://dev.amorce.org/gsipiere/village/
 
 ### Diagramme de séquence
 
+Sequence utilisateur:
+
 ![Sequence Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/germainsip/projet-village/master/puml/sequence_commande.puml)
